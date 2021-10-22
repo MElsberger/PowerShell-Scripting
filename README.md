@@ -1,6 +1,4 @@
-# PowerShell-Scripting
-# Batch Scripting
-# BASH Scripting
+# Scripts an Snippets
 
 Here you can find all Script from IT-Learner.de!
 Most of all are small Snippets
