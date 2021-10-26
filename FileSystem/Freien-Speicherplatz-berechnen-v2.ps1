@@ -1,4 +1,4 @@
-﻿j# .SYNOPSIS
+﻿# .SYNOPSIS
 # Berechnung des freien Speicherplatzes ein beliebigen Festplatte
  
 # .DESCRIPTION
