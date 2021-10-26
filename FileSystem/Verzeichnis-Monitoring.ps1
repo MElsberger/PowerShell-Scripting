@@ -3,7 +3,7 @@
  
 # .DESCRIPTION
 # Überwachung des Ordners Testfreigabe und Mitteilung über einer Änderung ausgeben
-# Skript läuft mit einer Endlosschleife
+# Skript läuft mit einer Endlosschleife test
  
 # .PARAMETER
 # $folder, $timeout, $FileSystemWatcher
