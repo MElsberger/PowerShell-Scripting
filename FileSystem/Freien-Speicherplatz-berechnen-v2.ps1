@@ -1,7 +1,8 @@
-﻿# .SYNOPSIS
+﻿j# .SYNOPSIS
 # Berechnung des freien Speicherplatzes ein beliebigen Festplatte
  
 # .DESCRIPTION
+# Abfrage über das Laufwerk welches nach dem Speicherplatz abgefragt werden soll
 # Speicherplatz der Festplatte berechnen und anschließen den 
 # verfügbaren Speicher in Prozent ausgeben.
  
