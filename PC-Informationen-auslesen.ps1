@@ -13,3 +13,6 @@ Set-Location -Path t:\PowerShell-Scripte
 $pcinfo2 = Get-WMIObject -class Win32_Physicalmemory
 $pcinfo3 = Get-WmiObject Win32_LogicalDisk#Inhalte in die Textdatei schreiben
 $pcinfo > pcinfo1.txt > $pcinfo2 > $pcinfo3 > pcinfo1.txt
+
+# Link zum kompletten Artikel 
+# https://it-learner.de/computerinformationen-auslesen-und-in-eine-textdatei-speichern/
