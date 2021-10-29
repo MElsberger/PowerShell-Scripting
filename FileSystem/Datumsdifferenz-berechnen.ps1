@@ -15,7 +15,9 @@
 ## Code ##
 
 
-# Variablen Festlegen
+# Variablen 
+
+
 
 $endzeit = Read-Host -Prompt "Bitte das Datum bis wann berechnet werden soll in der Form dd.mm.yyyy ein!"
 
