@@ -8,3 +8,6 @@ Set-Location $pfad
 get-childitem -Recurse | Sort-Object -Descending -Property length | Select -First 20 LastWriteTime,name,
 
 @{Name="Megabytes";Expression={[Math]::round($_.length / 1MB, 2)}} | Out-GridView
+
+## More Information
+## https://it-learner.de/grosse-dateien-mit-der-windows-powershell-auffinden-und-uebersichtlich-darstellen/
