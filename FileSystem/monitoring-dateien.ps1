@@ -15,3 +15,6 @@ Write-Warning (‘File {0} : {1}’ -f $result.ChangeType, $result.name)
 }
 }
 Write-Host ’Monitoring aborted.’
+
+#More Information
+#https://it-learner.de/mithilfe-der-windows-powershell-einen-ordner-bzw-ein-verzeichnis-auf-veraenderungen-ueberwachen/
