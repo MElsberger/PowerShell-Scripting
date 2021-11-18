@@ -23,10 +23,10 @@ $FileSystemWatcher = New-Object System.IO.FileSystemWatcher $folder
 
 # Manueller Abruch der Schleife
 Write-Host ”Press CTRL+C to abort monitoring $folder”
- 
+ while ($true){
  $result = $FileSystemWatcher.WaitForChanged('all', $timeout)
  
- while ($true){
+ 
  
  if ($result.TimedOut -eq $false)
  {
