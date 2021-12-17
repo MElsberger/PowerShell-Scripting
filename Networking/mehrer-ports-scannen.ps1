@@ -9,7 +9,8 @@
 
 ## Code ##
 
-
+# Der Command "param" kann die Variablen darin, beim Aufruf des Skriptes verändern (.\mehrere-ports-scannen.ps1 "127.0.0.1" "100" "102")
+# $adresse wird mit "127.0.0.1" überschrieben. $startport wird mit "100" überschrieben. $endport wird mit "102" überschrieben
 #Festlegen der einzelnen Variablen 
 param 
 (
