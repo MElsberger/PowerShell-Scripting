@@ -5,11 +5,12 @@
 #Zusätzlich soll die Ausgabe in absteigender Reihenfol-ge in ein .html Dokument konvertiert werden. 
 #Die Entwicklung der Aufgabe erfolgt in 6 Schritten.
 
+#Es müssen dabei lediglich die richtigen Ordner sowie Pfade angegeben werden. 
 
 
 
 
-Get-ChildItem -Path C:Windows*.exe | Where-Object { $_.Length -gt 20kb } | 
+Get-ChildItem -Path C:\Windows*.exe | Where-Object { $_.Length -gt 20kb } | 
 
 Select-Object -Property Length, Name | Sort-Object -Property Length -Descending | 
 
