@@ -1,0 +1,1 @@
+﻿Get-Process | foreach {$count = 0} {$_.Name; $count++} {"Gesamt: $count Prozesse"}
